@@ -1,0 +1,218 @@
+using system;
+using system.Collection.Generic;
+
+namespace lab1{
+    class program
+    {
+        static void Main (string[] args){
+            console.Writeline("Hello!");
+            program p = new program();
+            p.variablesTest();
+
+            List<int> nums = new List<int>(){1,2,3,4,5,6,7,8,9,123,567,123,78,16,723,10,135,2,46,78};
+            p.HomeWork(nums);
+
+        }
+    public void HomeWork(List<int> numbers) {
+            //Variables();
+            System.Console.WriteLine("This is the solution");
+
+            // 1 - print the sum of all numbers
+            // 3 - print Only even numbers ( % )
+            int sum = 0;
+            // magic happens here to the set sum
+
+            System.Console.WriteLine("Sum: " + sum);            
+        }
+
+
+//modificado
+
+public void HomeWork(List<int> numbers)
+        {
+            System.Console.WriteLine("This is the solution");
+
+            int sum = 0;
+            // 1 - print the sum of all numbers
+            // solve here
+            System.Console.WriteLine("Sum: " + sum);
+
+
+            // 2 - print Only even numbers ( % )
+
+        }
+
+
+
+
+
+    }
+    string variablesTest()
+    {
+        //return "result";
+        //return 1;
+        int age =21; // ask the user for the value
+        if(age < 20)
+        {
+            console.writeLine("its youger");
+            return "yes";
+        }
+        else
+        {
+            console.writeLine("its getting old");
+            return "no";
+        }
+    }
+
+}
+
+
+void variablesTest()
+{
+    //declare variables
+    //type name =val
+
+    string firstName = "Leticia";
+    int age = 34;
+
+    float f = 13.43f; //anything else
+    decimal total = 99.99m; // for money
+    bool found = false;
+
+    cw + tab para
+
+    system.console.writeLine("math operations");
+    system.console.writeLine(age - 1);
+    system.console.writeLine(age + 1);
+    system.console.writeLine(age * 32);
+    system.console.writeLine(age / 1);
+    system.console.writeLine(age % 2); modulous operator
+
+    //dotnet run
+
+
+    //for loop
+
+    for(int i =0; i < 10, i++)
+    {
+        //skip 3 and 7
+        if (i != 3 and i != 7)      
+        system.console.writeLine(i);
+    }end for
+
+
+    //arrays
+    string[] names=new string[5];
+
+    names[0] = "Wes";
+    names[1] = "Letty";
+    names[2] = "Kenny";
+    names[3] = "Lane";
+    names[4] = "Ebbonai";
+
+
+//List
+
+List<string> lastName = new List<string()>; 
+lastName.Add("Somethings");
+lastName.Add("Another");
+lastName.Add("Smith");
+lastName.Add("Inzunza");
+lastName.Add("Stuff");
+
+//length of a list
+system.console.WriteLine(lastName.Count);
+
+//iterate over a list
+for(int i=0; i<lastName.Count; i++)
+{
+    system.console.writeLine(lastName[i]);
+}
+
+//loop
+foreach(string last in lastName)
+{
+    system.console.writeLine(last);
+}
+
+
+
+
+
+
+}end method
+
+
+
+
+
+
+
+
+
+
+
+
+
++++++++++++++
+
+Clase sergio
+ void VariablesTest()
+        {
+            string firstName = "Sergio";
+            int age = 34;
+            decimal total = 99.99m; // for money
+            float f = 13.231f; // anything else
+            bool found = false;
+
+            System.Console.WriteLine("Math operations");
+            System.Console.WriteLine(age - 1);
+            System.Console.WriteLine(age + 1);
+            System.Console.WriteLine(age * 32);
+            System.Console.WriteLine(age / 2);
+            System.Console.WriteLine(age % 2); // modulous operator
+
+            for (int i = 0; i < 10; i++)
+            {
+                if (i != 3 && i != 7) // if i not equal to 3 and i not equal to 7
+                {
+                    System.Console.WriteLine(i);
+                }
+            }
+
+
+            // arrays
+            string[] names = new string[5];
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+dotnet run //para correr el codigo.
