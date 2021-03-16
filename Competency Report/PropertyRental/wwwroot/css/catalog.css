@@ -1,0 +1,11 @@
+
+h2 {
+    text-align: center;
+}
+
+.item {
+    width: 400;
+    height: 300;
+    display: inline-block;
+    border: 1px solid #efefef;
+}
